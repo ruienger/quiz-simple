@@ -12,32 +12,32 @@
 | 名词           | 是什么               |
 | :------------- | :------------------- |
 | Node.js        | 是 JS 的一个 runtime |
-| npm            | 是 ……                |
-| npx            | 是 ……                |
-| nvm            | 是 ……                |
-| nrm            | 是 ……                |
-| yarn           | 是 ……                |
-| React          | 是 ……                |
-| Vue            | 是 ……                |
-| Flux           | 是 ……                |
-| Mobx           | 是 ……                |
-| MVVM           | 是 ……                |
-| TDD            | 是 ……                |
-| Jest/Mocha     | 是 ……                |
-| node_modules   | 是 ……                |
-| package.json   | 是 ……                |
-| ECMAScript     | 是 ……                |
-| Electron       | 是 ……                |
-| Babel          | 是 ……                |
-| Webpack        | 是 ……                |
-| SSR            | 是 ……                |
-| BFF            | 是 ……                |
-| Serverless     | 是 ……                |
-| PWA            | 是 ……                |
-| V8             | 是 ……                |
-| libuv          | 是 ……                |
-| Stack Overflow | 是 ……                |
-| Deno           | 是 ……                |
+| npm            | 是 包管理工具                |
+| npx            | 是 不知                |
+| nvm            | 是 不知                |
+| nrm            | 是 不知                |
+| yarn           | 是 和npm类似                |
+| React          | 是 MVVM模式的js框架                |
+| Vue            | 是 MVVM模式的js框架，数据驱动                |
+| Flux           | 是 不知                |
+| Mobx           | 是 不知                |
+| MVVM           | 是 Model-view-ViewModel，MVC的改进版，把controller换成viewModel               |
+| TDD            | 是 不知                |
+| Jest/Mocha     | 是 不知                |
+| node_modules   | 是 npm安装的包的存取位置                |
+| package.json   | 是 配置文件，可以管理包的版本等                |
+| ECMAScript     | 是 JS的书写规范               |
+| Electron       | 是 不知                |
+| Babel          | 是 ES6转ES5的工具，避免浏览器不兼容                |
+| Webpack        | 是 前端打包工具，不是很了解                |
+| SSR            | 是 不知                |
+| BFF            | 是 不知                |
+| Serverless     | 是 不需要服务器的架构？根据字面意思，不了解                |
+| PWA            | 是 不知                |
+| V8             | 是 编译JS的V8引擎                |
+| libuv          | 是 不知                |
+| Stack Overflow | 是 栈溢出，通常出现在死循环、死迭代中                |
+| Deno           | 是 不知                |
 
 ## Q2
 
@@ -49,4 +49,6 @@
 > - Youtube 的几个频道: Fireship、Traversy Media、DesignCourse …
 > - 掘金、知乎
 
-答：
+答：老师
+	CSDN
+	BILILBILI（objtube）

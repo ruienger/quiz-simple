@@ -3,8 +3,16 @@
 
 // * ---------------- 解决下文中缺少 clone 函数的问题……
 // 在这里写代码……
-
-// * ---------------- 实现的效果：
+// 浅克隆
+// function clone(d){
+//   return d
+// }
+//效果是 True False
+// 深克隆
+function clone(data){
+  return JSON.parse(JSON.stringtify(data))
+}
+// * ---------------- 实现的效果：true true
 
 {
   const data = {

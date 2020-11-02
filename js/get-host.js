@@ -5,6 +5,7 @@
  */
 const getHostName = (url) => {
   // 请实现……
+  return Array.from(url.match('://(\w||.)+\/')[0]).slice(3,-1).join('')
 };
 
 // * ---------------- 实现的效果：

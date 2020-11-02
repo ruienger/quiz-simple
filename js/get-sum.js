@@ -7,6 +7,25 @@
  */
 const getSumOfTriple = (arr, start, end) => {
   // 请实现……
+  if (!start) {
+  	start = 0
+  }
+  arr.sort((before, after)=>{
+  	return before - after
+  })
+  if (!end) {
+  	end = arr[arr.length-1]
+  }
+  let sumList = [], sum = 0
+  arr.forEach((i)=>{
+  	if (i%3==0 && i>start && i<end) {
+  		sumList.push(i)
+  	}
+  })
+  sumList.forEach((i)=>{
+  	sum+=i
+  })
+  return sum
 };
 
 // * ---------------- 实现的效果：

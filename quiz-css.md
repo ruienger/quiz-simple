@@ -29,6 +29,14 @@ Demo 代码可以新建一个或多个文件（不限），
   flex-grow: 1;
 }
 ```
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.container > div:nth-child(1) {
+  flex-grow: 1;
+}
 
 ## Q2
 
@@ -44,4 +52,6 @@ Demo 代码可以新建一个或多个文件（不限），
 > }
 > ```
 
-答：
+答：css可以通过‘ ’分隔类名来引用多个类
+    css选择器从右向左开始选择，合理应用可以提高效率
+    less、sass是css预处理工具，可以在css中声明变量以复用。
